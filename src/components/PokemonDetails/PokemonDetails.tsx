@@ -47,10 +47,6 @@ const PokemonDetails: React.FC = () => {
     return details;
   }, [data]);
 
-  // if (loading) {
-  //   return <Loader />;
-  // }
-
   const handleClose = () => {
     navigate(`/pokemon${location.search}`);
   };
